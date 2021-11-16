@@ -1,15 +1,15 @@
 char* StrCpy(char* src)
 {
-//¼ÆËãsrcµÄ³¤¶È
-int len£½0;
-for(p£½src;p!£½NULL;P++)
+//è®¡ç®—srcçš„é•¿åº¦
+int lenï¼0;
+for(pï¼src;p!ï¼NULL;P++)
      len++;
-//ÉêÇëlen+1³¤¶ÈµÄÄÚ´æ¿Õ¼ä
-char* dst£½(char*)malloc(sizeof(char)*(len+1));
-//Öğ×Ö·û¸´ÖÆ
-for(int i£½0;i<len;i++)
-    dst[i]£½src[i];
-//×Ö·û´®½áÊø±ê¼Ç
-dst[len]£½'\0';
+//ç”³è¯·len+1é•¿åº¦çš„å†…å­˜ç©ºé—´
+char* dstï¼(char*)malloc(sizeof(char)*(len+1));
+//é€ä¸ªå­—ç¬¦å¤åˆ¶
+for(int iï¼0;i<len;i++)
+    dst[i]ï¼src[i];
+//å­—ç¬¦ä¸²ç»“æŸæ ‡è®°
+dst[len]ï¼'\0';
 return dst;
 }
