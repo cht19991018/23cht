@@ -1,15 +1,17 @@
 char* StrCpy(char* src)
 {
-//计算src的长度
-int len＝0;
-for(p＝src;p!＝NULL;P++)
+//璁＄畻src鐨勯暱搴?
+int len锛?;
+for(p锛漵rc;p!锛漀ULL;P++)
      len++;
-//申请len+1长度的内存空间
-char* dst＝(char*)malloc(sizeof(char)*(len+1));
-//逐个字符复制
-for(int i＝0;i<len;i++)
-    dst[i]＝src[i];
-//字符串结束标记
-dst[len]＝'\0';
+
+//鐢宠len+1闀垮害鐨勫唴瀛樼┖闂?
+char* dst锛?char*)malloc(sizeof(char)*(len+1));
+//閫愪釜瀛楃澶嶅埗
+for(int i锛?;i<len;i++)
+    dst[i]锛漵rc[i];
+//瀛楃涓茬粨鏉熸爣璁?
+dst[len]锛?\0';
+
 return dst;
 }
